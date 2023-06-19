@@ -19,12 +19,22 @@ public class AppMain {
     programmer1.address = "Jakarta";
     programmer1.technology = "JAVA";
 
-    // person1.greeting();
-    // teacher1.greeting();
-    // doctor1.greeting();
-    // programmer1.greeting();
+    person1.greeting();
+    System.out.println();
+    teacher1.greeting();
+    System.out.println();
+    doctor1.greeting();
+    System.out.println();
+    programmer1.greeting();
+    System.out.println();
 
+    // latihan soal 1
     Parent person = new Child("Teacher", "Budi");
     person.greeting();
+
+    // latihan soal 2
+    System.out.println("soal 2");
+    Child persons = new Child("Teacher", "Budi");
+    persons.greeting();
   }
 }
