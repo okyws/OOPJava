@@ -29,8 +29,10 @@ public class AppMain {
     System.out.println();
 
     // latihan soal 1
+    System.out.println("soal 1");
     Parent person = new Child("Teacher", "Budi");
     person.greeting();
+    System.out.println();
 
     // latihan soal 2
     System.out.println("soal 2");

@@ -19,8 +19,7 @@ public class Programmer extends Person {
   }
 
   void greeting() {
-    System.out.println("Hello my name is " + name + ".");
-    System.out.println("I, come from " + address + ".");
+    super.greeting(); // memanggil method greeting dari parent Person class
     System.out.println("My job is a " + technology + " Programmer.");
   }
 }
