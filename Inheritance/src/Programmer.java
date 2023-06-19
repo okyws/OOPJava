@@ -6,6 +6,6 @@ public class Programmer extends Person {
   }
 
   void coding() {
-    System.out.println("I can create appliacation using techonology: " + technology + ".");
+    System.out.println("I can create appliacation using technology: " + technology + ".");
   }
 }
