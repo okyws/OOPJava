@@ -16,13 +16,18 @@ public class Person {
 
   // Variable Shadowing
   Person(String name, String address) {
-    // penamaan field dan parameter yang sama mengakibatkan terjadinya variable
-    // shadowing
-    // field nama tidak akan berubah name = name;
-    // field address tidak akan berubah address = address;
+    /*
+     * penamaan field dan parameter yang sama mengakibatkan terjadinya
+     * variable shadowing
+     * field nama tidak akan berubah
+     * name = name;
+     * field address tidak akan berubah
+     * address = address;
+     *
+     * cara mengatasinya dengan memakai keyword this
+     * this.name menunjukan field dari kelas itu sendiri
+     */
 
-    // cara mengatasinya dengan memakai keyword this
-    // this.name menunjukan field dari kelas itu sendiri
     this.name = name;
     this.address = address;
   }

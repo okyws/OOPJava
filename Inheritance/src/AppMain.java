@@ -44,5 +44,11 @@ public class AppMain {
     System.out.println("soal 2");
     Child persons = new Child("Teacher", "Budi");
     persons.greeting();
+    System.out.println();
+
+    // latihan soal 3
+    System.out.println("soal 3");
+    Parent person3 = new Parent("Budi");
+    person3.greeting();
   }
 }

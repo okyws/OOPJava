@@ -6,9 +6,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="Inheritance/src"/>
-	<classpathentry kind="src" path="Polymorphism/src"/>
 	<classpathentry kind="output" path="bin"/>
-  <classpathentry kind="output" path="Inheritance/bin"/>
-  <classpathentry kind="output" path="Polymorphism/bin"/>
 </classpath>
