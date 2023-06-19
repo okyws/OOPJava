@@ -1,16 +1,27 @@
 
 public class Person {
-	String name;
-	String address;
-	final String country = "Indonesia";
+  String name;
+  String address;
+  final String country = "Indonesia";
 
-	// method with value
-	void sayHello(String paramName) {
-		System.out.println("Hello " + paramName + ", My name is " + name + ".");
-	}
+  // Constructor Default
+  Person() {
 
-	// method return value
-	String sayAddress() {
-		return "I, come from " + address + ".";
-	}
+  }
+
+  // Constructor With Parameter
+  Person(String paramName, String paramAddress) {
+    name = paramName;
+    address = paramAddress;
+  }
+
+  // method with value
+  void sayHello(String paramName) {
+    System.out.println("Hello " + paramName + ", My name is " + name + ".");
+  }
+
+  // method return value
+  String sayAddress() {
+    return "I, come from " + address + ".";
+  }
 }
