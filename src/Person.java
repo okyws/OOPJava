@@ -9,9 +9,14 @@ public class Person {
 
   }
 
+  // Constructor dengan satu parameter
+  Person(String paramName) {
+    name = paramName;
+  }
+
   // Constructor With Parameter
   Person(String paramName, String paramAddress) {
-    name = paramName;
+    this(paramName);
     address = paramAddress;
   }
 

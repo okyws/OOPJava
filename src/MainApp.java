@@ -26,9 +26,17 @@ public class MainApp {
     System.out.println();
 
     // membuat object dari class Person menggunakan Contructor Default
-    System.out.println(person1.name);
-    System.out.println(person1.address);
-    person1.sayHello("Padepokan 79");
+    System.out.println(person3.name);
+    System.out.println(person3.address);
+    System.out.println();
+    person3.sayHello("Padepokan 79");
     System.out.println(person1.sayAddress());
+    System.out.println();
+
+    // membuat object dari class Person menggunakan Contructor satu parameter
+    Person person4 = new Person("Andre");
+    person4.address = "Jakarta";
+    person4.sayHello("Padepokan 79");
+    System.out.println(person4.sayAddress());
   }
 }
