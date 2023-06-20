@@ -1,9 +1,9 @@
-import Person;
-
 package childs;
 
+import parents.Person;
+
 public class Doctor extends Person {
-  String specialist;
+  public String specialist;
 
   public Doctor() {
     /*
@@ -27,11 +27,11 @@ public class Doctor extends Person {
     this.specialist = specialist;
   }
 
-  void surgency() {
+  public void surgency() {
     System.out.println("I can " + specialist + " operation patients");
   }
 
-  void greeting() {
+  public void greeting() {
     super.greeting();
     System.out.println("My occupation is a " + specialist + " Doctor.");
   }

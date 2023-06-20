@@ -1,9 +1,9 @@
-import Person;
-
 package childs;
 
+import parents.Person;
+
 public class Teacher extends Person {
-  String subject;
+  public String subject;
 
   public Teacher() {
 
@@ -14,11 +14,11 @@ public class Teacher extends Person {
     this.subject = subject;
   }
 
-  void teaching() {
+  public void teaching() {
     System.out.println("I can teach " + subject + ", so anyone how want to learn can talk to me.");
   }
 
-  void greeting() {
+  public void greeting() {
     super.greeting();
     System.out.println("My job is a " + subject + " teacher.");
   }

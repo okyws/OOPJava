@@ -1,23 +1,23 @@
 package parents;
 
 public class Person {
-  String name;
-  String address;
+  public String name;
+  public String address;
 
   // Constructor Default
-  Person() {
+  public Person() {
     super();
   }
 
   // Constructor dengan parameter
-  Person(String name, String address) {
+  public Person(String name, String address) {
     super();
     this.name = name;
     this.address = address;
   }
 
   // method
-  void greeting() {
+  public void greeting() {
     System.out.println("Hello my name is " + name + ".");
     System.out.println("I, come from " + address + ".");
   }

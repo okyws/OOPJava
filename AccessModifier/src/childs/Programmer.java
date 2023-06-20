@@ -1,9 +1,9 @@
-import Person;
-
 package childs;
 
+import parents.Person;
+
 public class Programmer extends Person {
-  String technology;
+  public String technology;
 
   public Programmer() {
 
@@ -14,15 +14,15 @@ public class Programmer extends Person {
     this.technology = technology;
   }
 
-  void hacking() {
+  public void hacking() {
     System.out.println("I can hack a website");
   }
 
-  void coding() {
+  public void coding() {
     System.out.println("I can create appliacation using technology: " + technology + ".");
   }
 
-  void greeting() {
+  public void greeting() {
     super.greeting(); // memanggil method greeting dari parent Person class
     System.out.println("My job is a " + technology + " Programmer.");
   }

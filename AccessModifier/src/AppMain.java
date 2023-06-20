@@ -1,7 +1,7 @@
-import parents.Person;
 import childs.Doctor;
 import childs.Programmer;
 import childs.Teacher;
+import parents.Person;
 
 public class AppMain {
   public static void main(String[] args) {
