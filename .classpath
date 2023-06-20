@@ -9,8 +9,12 @@
 	<classpathentry kind="src" path="Inheritance/src"/>
 	<classpathentry kind="src" path="Polymorphism/src"/>
 	<classpathentry kind="src" path="AccessModifier/src"/>
+	<classpathentry kind="src" path="Encapsulation/src"/>
+	<classpathentry kind="src" path="Abstract/src"/>
 	<classpathentry kind="output" path="bin"/>
   <classpathentry kind="output" path="Inheritance/bin"/>
   <classpathentry kind="output" path="Polymorphism/bin"/>
   <classpathentry kind="output" path="AccessModifier/bin"/>
+  <classpathentry kind="output" path="Encapsulation/bin"/>
+  <classpathentry kind="output" path="Abstract/bin"/>
 </classpath>
