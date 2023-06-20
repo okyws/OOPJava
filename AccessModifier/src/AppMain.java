@@ -1,3 +1,8 @@
+import parents.Person;
+import childs.Doctor;
+import childs.Programmer;
+import childs.Teacher;
+
 public class AppMain {
   public static void main(String[] args) {
 
@@ -22,11 +27,9 @@ public class AppMain {
     sayHello(person2);
     sayHello(person3);
 
-    // latihan soal
-    System.out.println("\nlatihan soal");
     Person persons = new Programmer("Budi", "Bandung", "Javascript");
     persons.greeting();
-    if (persons instanceof Programmer) {
+    if (persons instanceof Teacher) {
       System.out.println("benar");
     } else {
       System.out.println("Salah");

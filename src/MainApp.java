@@ -1,3 +1,4 @@
+import parents.Person;
 
 public class MainApp {
 
