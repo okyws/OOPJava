@@ -26,14 +26,6 @@ public class AppMain {
     sayHello(person1);
     sayHello(person2);
     sayHello(person3);
-
-    Person persons = new Programmer("Budi", "Bandung", "Javascript");
-    persons.greeting();
-    if (persons instanceof Teacher) {
-      System.out.println("benar");
-    } else {
-      System.out.println("Salah");
-    }
   }
 
   static void sayHello(Person person) {
