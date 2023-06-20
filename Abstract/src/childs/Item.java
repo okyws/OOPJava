@@ -13,6 +13,12 @@ public class Item extends Product {
     this.price = price;
   }
 
+  /*
+   * implementasi method abstrat pada child class supaya menjadi bentuk konkrit
+   * dan jelas.
+   */
+
+  @Override
   public void printInformation() {
     System.out.println("Product name: " + getName());
     System.out.println("Product price: " + getPrice());

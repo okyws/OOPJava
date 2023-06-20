@@ -1,5 +1,6 @@
-import childs.Item;
-import parents.Product;
+import childs.Circle;
+import childs.Triangle;
+import parents.Shape;
 
 public class MainApp {
   /*
@@ -15,7 +16,16 @@ public class MainApp {
    * dengan kode diataskita dapat membuat objectproduct dari
    * instansiasi child class Item
    *
+   *
+   * Product product1 = new Product(); // salah
+   * Product product2 = new Item(); // benar
    */
-  // Product product1 = new Product(); // salah
-  Product product2 = new Item(); // benar
+
+  public static void main(String[] args) {
+    Shape lingkaran = new Circle("Merah", 20);
+    Shape segitiga = new Triangle(10, 15, "Putih");
+
+    System.out.println("Luas lingkaran berwarna " + lingkaran.getColor() + " adalah " + lingkaran.getArea());
+    System.out.println("Luas segitiga berwarna " + segitiga.getColor() + " adalah " + segitiga.getArea());
+  }
 }

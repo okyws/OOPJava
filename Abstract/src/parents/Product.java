@@ -19,6 +19,6 @@ public abstract class Product {
     this.name = name;
   }
 
-  // abstract method
+  // abstract method printInformation
   public abstract void printInformation();
 }
